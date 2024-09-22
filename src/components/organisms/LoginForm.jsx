@@ -18,7 +18,7 @@ const LoginForm = ({ onLogin }) => {
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <h1 className="text-sm font-bold text-left text-gray-800 mb-1 text-red-900">
+            <h1 className="text-sm font-bold text-left mb-1 text-red-900">
               Email
             </h1>
             <input
