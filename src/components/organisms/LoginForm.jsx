@@ -43,7 +43,10 @@ const LoginForm = ({ onLogin }) => {
               required
             />
           </div>
-          <SubmitButton label="Login" />
+          <SubmitButton
+            label="Login"
+            color="bg-red-500 hover:bg-green-600 transition-all duration-300 ease-in-out "
+          />
         </form>
         <p className="text-center text-gray-500 mt-4">
           Do not have an account?{" "}

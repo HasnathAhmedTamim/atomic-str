@@ -57,7 +57,10 @@ const SignUpForm = ({ onSignUp }) => {
               required
             />
           </div>
-          <SubmitButton label="Sign Up" />
+          <SubmitButton
+            label="Sign Up"
+            color="bg-green-500 hover:bg-red-600 transition-all duration-300 ease-in-out"
+          />
         </form>
         <p className="text-center text-gray-500 mt-4">
           Already have an account?{" "}
